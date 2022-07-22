@@ -1,1 +1,15 @@
 "Hello, World!"
+cd dirName	Move to a particular directory from the current directory. Note that you can only move down the directory and not to the directories in the above level.	
+Example: In the command shown on the right, we move from the root directory to Desktop.
+
+Syntax: $ cd Desktop
+
+mkdir	This command creates a directory.	Example: The command shown in the right will create a directory named “exampleDir” in the current directory in which we are.
+Syntax: $ mkdir exampleDir
+cat > fileName	This command creates a file in the current directory.	Example: The command shown in the right creates a new file in the current directory and the name of the file will be file1 with an extension of ‘.txt’.
+Syntax: $ cat > file1.txt
+cat fileName	This command displays the content in a file. If a file is not present in the current directory, it gives a message showing no such file exists.	
+Example: The command shown on the right displays the content of the file file1.txt. “Hello there!” is the content inside it.
+
+Syntax: $ cat file1.txt Hello there!
+ 
